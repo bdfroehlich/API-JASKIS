@@ -111,4 +111,4 @@ db.jaskis.deleteOne({name:"Lokinkajou"})
 db.jaskis.deleteMany({client:"Songbird"})
 
 // 4. Update all captured statuses to true 
-db.jaskis.updateMany({}, {$set: {captured: true}}}
+db.jaskis.updateMany({}, {$set: {captured: true}}})
